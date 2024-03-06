@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: calc(1 * var(--scale-size));">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>04-03-2024: Assignment</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- header starts -->
+        <header class="header">
+            <section class="header__top flexbox">
+                <div class="header__top-wrapper flexbox">
+
+                    <div class="header__logo">
+                        <img src="assets/logo.svg" alt="header__logo">
+                    </div>
+
+                    <nav class="header__nav flexbox">
+                        <ul class="flexbox">
+                            <li>
+                                <a href="#" class="flexbox active">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flexbox">
+                                    <span>Solutions</span> <i class="flexbox">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_109)">
+                                                <path d="M6.84619 9L12.8462 15L18.8462 9" stroke="#636363"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_109">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.846191)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flexbox">
+                                    <span>Your work</span> <i class="flexbox">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_109)">
+                                                <path d="M6.84619 9L12.8462 15L18.8462 9" stroke="#636363"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_109">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.846191)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flexbox">
+                                    <span>Company</span> <i class="flexbox">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_1_109)">
+                                                <path d="M6.84619 9L12.8462 15L18.8462 9" stroke="#636363"
+                                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_109">
+                                                    <rect width="24" height="24" fill="white"
+                                                        transform="translate(0.846191)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__cta">
+                        <a href="#" class="flexbox">
+                            <span>Request a Demo</span> <i class="flexbox">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_114)">
+                                        <path d="M9.84619 11L12.8462 14L20.8462 6" stroke="white" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M20.8462 12V18C20.8462 18.5304 20.6355 19.0391 20.2604 19.4142C19.8853 19.7893 19.3766 20 18.8462 20H6.84619C6.31576 20 5.80705 19.7893 5.43198 19.4142C5.05691 19.0391 4.84619 18.5304 4.84619 18V6C4.84619 5.46957 5.05691 4.96086 5.43198 4.58579C5.80705 4.21071 6.31576 4 6.84619 4H15.8462"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_114">
+                                            <rect width="24" height="24" fill="white" transform="translate(0.846191)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="header__bottom">
+                <div class="header__hero flexbox">
+                    <h1>the world's leading business valuation software</h1>
+
+                    <p>
+                        Valutico provides the financial services industry and valuation experts with data-driven tools
+                        to perform accurate company valuations faster and more accurately than ever before.
+                    </p>
+
+                    <div class="flexbox">
+                        <a href="#" class="flexbox">
+                            <span>Request a Demo</span> <i class="flexbox">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_114)">
+                                        <path d="M9.84619 11L12.8462 14L20.8462 6" stroke="white" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M20.8462 12V18C20.8462 18.5304 20.6355 19.0391 20.2604 19.4142C19.8853 19.7893 19.3766 20 18.8462 20H6.84619C6.31576 20 5.80705 19.7893 5.43198 19.4142C5.05691 19.0391 4.84619 18.5304 4.84619 18V6C4.84619 5.46957 5.05691 4.96086 5.43198 4.58579C5.80705 4.21071 6.31576 4 6.84619 4H15.8462"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_114">
+                                            <rect width="24" height="24" fill="white" transform="translate(0.846191)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </i>
+                        </a>
+
+                        <a href="#" class="flexbox">
+                            <span>Sign up/Login</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- header ends -->
+
+        <!-- main starts -->
+        <main class="main">
+            <div class="main__wrapper">
+                <section class="main__image flexbox">
+                    <img src="assets/main-image.png" alt="valutico_mock_image">
+                </section>
+
+                <section class="main__trusted flexbox">
+                    <div class="main__trusted-top flexbox">
+                        <h3>Trusted by Hundreds of Financial Firms in 75 Countries</h3>
+                        <p>
+                            Our team of more than 50 employees is globally distributed and serves both national and
+                            international clients in over 75 countries.
+                        </p>
+                    </div>
+
+                    <div class="main__trusted-bottom">
+                        <span class="flexbox">
+                            <img src="assets/trusted-1.png" alt="allinial global logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-2.png" alt="oaklins logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-3.png" alt="russell bredford logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-4.png" alt="crowe logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-5.png" alt="bcrh logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-6.png" alt="praxity logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-7.png" alt="bakertilly logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-8.png" alt="standard charted logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-9.png" alt="pandea logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-10.png" alt="global m&a logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-11.png" alt="cdi global logo">
+                        </span>
+                        <span class="flexbox">
+                            <img src="assets/trusted-12.png" alt="rodl logo">
+                        </span>
+                    </div>
+                </section>
+
+                <section class="main__why flexbox">
+                    <h3>Why Valutico</h3>
+
+                    <p>
+                        An award-winning fintech providing a range of company valuation solutions, Valutico provides the
+                        financial services industry and valuation experts with data-driven tools.
+                    </p>
+
+                    <ul class="flexbox">
+                        <li class="flexbox">
+                            <h4>Secure</h4>
+                            <p>
+                                Private by default, creating a safe space around your projects and your data.
+                            </p>
+                        </li>
+
+                        <li class="flexbox">
+                            <h4>Reliable</h4>
+                            <p>
+                                Created by valuation experts for valuation professionals.
+                            </p>
+                        </li>
+
+                        <li class="flexbox">
+                            <h4>Dedicated to your success</h4>
+                            <p>
+                                24/7 support and multi-language capabilities to support your needs.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="main__valuations flexbox">
+                    <div class="main__valuations-top flexbox">
+                        <h3>Accurate Valuations in Minutes</h3>
+                        <p>
+                            Find the company data you need in seconds, with 3TB of global financial data featuring
+                            almost 1 million transactions and over 50,000 thousand comparable peers
+                        </p>
+                    </div>
+
+                    <div class="main__valuations-bottom flexbox">
+                        <ul class="flexbox">
+                            <li class="flexbox">
+                                <h4>Personalise Your Reports</h4>
+                                <p>
+                                    Save hours transferring results from spreadsheet to slides, by exporting your
+                                    results to Powerpoint and Word templates effortlessly.
+                                </p>
+                            </li>
+
+                            <li class="flexbox">
+                                <h4>28 Valuation Method Options</h4>
+                                <p>
+                                    From loss-making companies to mature enterprises, and from startups to SME's, value
+                                    businesses of any type using multiple valuation methods.
+                                </p>
+                            </li>
+
+                            <li class="flexbox">
+                                <h4>Fast Access to Premium Data</h4>
+                                <p>
+                                    Access the most highly-trusted global databases of company financial data to locate
+                                    the figures you need.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <aside class="flexbox">
+                            <img src="assets/valuations-image.jpeg" alt="an image of someone holding a pen and writing">
+                        </aside>
+                    </div>
+
+                    <div class="main__valuations-cta">
+                        <a href="#" class="flexbox">
+                            <span>Request a Demo</span>
+
+                            <i class="flexbox">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_114)">
+                                        <path d="M9.84619 11L12.8462 14L20.8462 6" stroke="white" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M20.8462 12V18C20.8462 18.5304 20.6355 19.0391 20.2604 19.4142C19.8853 19.7893 19.3766 20 18.8462 20H6.84619C6.31576 20 5.80705 19.7893 5.43198 19.4142C5.05691 19.0391 4.84619 18.5304 4.84619 18V6C4.84619 5.46957 5.05691 4.96086 5.43198 4.58579C5.80705 4.21071 6.31576 4 6.84619 4H15.8462"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_114">
+                                            <rect width="24" height="24" fill="white" transform="translate(0.846191)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </i>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- main ends -->
+
+    </div>
+</body>
+
+</html>

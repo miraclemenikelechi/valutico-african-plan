@@ -1,0 +1,43 @@
+@import "./_mixins.less";
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-100);
+    font-size: var(--font-size);
+    font-family: var(--manrope);
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    .equal(1.5rem);
+    .flex;
+    color: inherit;
+    .bp-max(mobile;
+
+            {
+            .equal(1rem)
+        }
+
+    )
+}
+
+svg {
+    .equal(100%);
+    color: inherit;
+}

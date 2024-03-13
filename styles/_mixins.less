@@ -1,0 +1,52 @@
+.flex(@d: row, @a: center, @j: center) {
+    display: flex;
+    flex-direction: @d;
+    align-items: @a;
+    justify-content: @j;
+}
+
+.equal(@h-w) {
+    height: @h-w;
+    width: @h-w;
+}
+
+.min-w(@w, @p: 100%) {
+    width: min(@w, @p);
+}
+
+.max-w(@w, @p: 100%) {
+    width: max(@w, @p);
+}
+
+.shared-shadow(@color: var(--black-500)) {
+    &:hover {
+        box-shadow: 0 0 0 .5rem @color;
+    }
+}
+
+// .bp-min(tablet, @rules) {
+//     @media screen and (min-width: 52.25em) {
+//         @rules();
+//     }
+// }
+
+// .bp-max(tablet, @rules) {
+//     @media screen and (max-width: 52.25em) {
+//         @rules();
+//     }
+// }
+
+
+.bp-max(@point, @rules) {
+    & when(@point =tablet) {
+        @media (max-width: 89.75em) {
+            @rules();
+        }
+    }
+
+    & when(@point =mobile) {
+        @media (max-width: 40em) {
+            @rules();
+        }
+    }
+}

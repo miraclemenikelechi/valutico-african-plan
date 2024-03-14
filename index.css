@@ -685,6 +685,11 @@ img {
     width: min(47rem, 100%);
   }
 }
+@media (max-width: 52.25em) {
+  .main__why ul {
+    width: min(20.5rem, 100%);
+  }
+}
 .main__why li {
   display: flex;
   flex-direction: column;

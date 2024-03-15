@@ -4,6 +4,7 @@ const appState = {
 
 const hamburgerEl = document.querySelector(".header__hamburger");
 const navEl = document.querySelector(".header__nav");
+const bodyEl = document.querySelector("body");
 
 const closeSvg = `
 <i>
@@ -28,12 +29,14 @@ hamburgerEl.addEventListener("click", () => {
 		case false:
 			hamburgerEl.innerHTML = closeSvg;
 			navEl.classList.add("active");
+			bodyEl.style.overflow = "hidden";
 			appState.isMenuOpen = true;
 			break;
 
 		case true:
 			hamburgerEl.innerHTML = openSvg;
 			navEl.classList.remove("active");
+			bodyEl.style.overflow = "visible";
 			appState.isMenuOpen = false;
 			break;
 	}
